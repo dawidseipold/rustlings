@@ -16,6 +16,14 @@ fn main() {
     // You can optionally experiment here.
 }
 
+fn calculate_price_of_apples(apple_count: i32) -> i32{
+    if apple_count > 40 {
+        apple_count
+    } else {
+        apple_count * 2
+    }
+}
+
 // Don't change the tests!
 #[cfg(test)]
 mod tests {
